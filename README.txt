@@ -1,6 +1,6 @@
 With the help of Hyperspace by HTML5 (open source code provided), I modified the code to meet my needs for creating a personal portfolio.
 Updates will be always provided.
-For more contacts, visit the webpage or e-mail (sabrinamend86@gmail.com)
+For more contacts, visit the webpage or e-mail (sabrinamend86@gmail.com or sabrinamendonca@discente.ufg.br)
 
 Credits:
 	html5up.net | @ajlkn
