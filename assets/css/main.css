@@ -2552,25 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #9c4c7f;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
-				}
-				.wrapper.style4 .icon.major:before {
-					color: #b74e91;
-				}
-
-				.wrapper.style4-alt .icon.major:before {
-					color: #953d75;
-				}
-				.wrapper.style5 .icon.major:before {
-					color: #b74e91;
-				}
-
-				.wrapper.style5-alt .icon.major:before {
-					color: #953d75;
+					color: #782059;
 				}
 
 /* Image */
@@ -2822,11 +2808,13 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: inline-block;
+		text-align: center
 	}
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.75em 0 0;
+			padding: 0 0.9em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2839,6 +2827,16 @@ input, select, textarea {
 
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
+				}
+			
+				ul.icons li a.icon {
+					font-size: 28px; 
+					transition: font-size 0.3s ease;
+				}
+
+				.social-icons {
+					margin-top: 20px; 
+					text-align: center; 
 				}
 
 /* Menu */
@@ -3085,6 +3083,30 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.25);
+		}
+
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		.spotlights > section:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.35);
+		}
+
+		.spotlights > section:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3270,11 +3292,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #a84584;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #a12774;
 		}
 
 		.wrapper.fullscreen {
@@ -3753,7 +3775,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.9em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3934,6 +3956,7 @@ input, select, textarea {
 			height: 250px;
 			border-radius: 50%;
 			overflow: hidden;
+			image-rendering: -webkit-optimize-contrast;
 		}
 		
 		.image-container img {
