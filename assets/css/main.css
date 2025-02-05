@@ -3907,3 +3907,37 @@ input, select, textarea {
 			}
 
 		}
+		.inner {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+		}
+		
+/* Imagens */
+		.image-container {
+			flex-shrink: 0;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		
+		.image-container img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		
+/* Responsividade */
+		@media screen and (max-width: 768px) {
+			.image-container {
+				width: 120px;
+				height: 120px;
+				margin-top: 20px;
+			}
+		
+			.inner {
+				flex-direction: column;
+				text-align: center;
+			}
+		}
